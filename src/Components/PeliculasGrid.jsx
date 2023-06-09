@@ -15,8 +15,8 @@ export const PeliculasGrid = () => {
 
     return(
         <ul className="moviesGrid">
-            {peliculas.map((indicePelicula)=>(
-                <PeliculasCard key={indicePelicula.id} peliculaProp={indicePelicula}/>
+            {peliculas.map((pelicula)=>(
+                <PeliculasCard key={pelicula.id} pelicula={pelicula}/>
             ))}
         </ul>
     )
