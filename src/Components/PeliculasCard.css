@@ -1,0 +1,16 @@
+.movieCard{
+     list-style: none;
+     text-align: center;
+}
+
+.movieImage{
+    width: 230px;
+    height: 345px;
+}
+
+@media(max-width: 560px){
+    .movieImage{
+        width: 90%;
+        height: auto;
+    }
+}
