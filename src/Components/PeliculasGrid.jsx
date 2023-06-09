@@ -1,4 +1,3 @@
-/* import peliculas from "./peliculas.json" */
 import { PeliculasCard } from "./PeliculasCard"
 import { get } from "../utils/httpCliente.js"
 import { useState, useEffect } from "react"

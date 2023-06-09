@@ -14,7 +14,7 @@ function App() {
       </header>
       <Routes>
         <Route path="/" element={<LandingPage/>}/>
-        <Route path="/pelicula/peliculaId" element={<PeliculaDetalle/>}/>
+        <Route path="/pelicula/:peliculaId" element={<PeliculaDetalle/>}/>
       </Routes>
     </BrowserRouter>
 
